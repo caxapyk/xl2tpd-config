@@ -1,0 +1,11 @@
+mtu 1460
+mru 1460
+lcp-echo-interval 3
+lcp-echo-failure 8
+logfile /var/log/pppd
+nodeflate
+noproxyarp
+noauth
+nodefaultroute
+ipcp-accept-local
+ipcp-accept-remote
